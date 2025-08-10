@@ -7,7 +7,7 @@ this project is still in progress
 installation guide:
 https://myosuite.readthedocs.io/en/latest/install.html
 steps to create a new environment:
-- create an instant of the parent myosuite and MuJoCo class defining new observations, rewards, termination conditions etc....
-- needed xml files for the musculoskeletal model used in the simulation any new part and or scene is defined here
-- registering the new environment within the framework
-- write the relevant python script to run your simulation
+- create an instance of the parent MyoSuite and MuJoCo class, defining new observations, rewards, termination conditions etc....
+- needed XML files for the musculoskeletal model used in the simulation, any new part and or scene as well as initial positions and velocities are defined here,
+- Register the new environment within the framework
+- Write the relevant Python script to run your simulation
