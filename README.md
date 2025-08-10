@@ -4,3 +4,10 @@ created a new environment within myosuite framework to simulate perturbed balanc
 a platform moves underneath the musculoskeletal model and the PPO agent learns how to respond
 to different levels of periodic perturbation imposed by the platform acting as a moving treadmill.
 this project is still in progress
+installation guide:
+https://myosuite.readthedocs.io/en/latest/install.html
+steps to create a new environment:
+- create an instant of the parent myosuite and MuJoCo class defining new observations, rewards, termination conditions etc....
+- needed xml files for the musculoskeletal model used in the simulation any new part and or scene is defined here
+- registering the new environment within the framework
+- write the relevant python script to run your simulation
